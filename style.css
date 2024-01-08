@@ -129,23 +129,23 @@ section1 {
 
 .items-text {
 }
-#item-h6{
-    margin-top: 100px;
-    margin-bottom: 10px;
-    font-size: 20px;
+#item-h6 {
+  margin-top: 100px;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
-.item-h1{
-    color: #070211;
-font-size: 48px;
-font-weight: 900;
-margin-bottom: 0;
-margin-top: 0;
+.item-h1 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 0;
+  margin-top: 0;
 }
-.item-paragraph{
-    color: rgba(7, 2, 17, 0.60);
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
+.item-paragraph {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
 }
 .img-container {
   display: grid;
@@ -154,4 +154,52 @@ line-height: 32px;
 }
 .imgs {
   border-radius: 16px;
+}
+
+/* Start Subscribe Section */
+
+.subscribe-container {
+  width: 1320px;
+  height: 616px;
+  margin-top: 120px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#Sub-p {
+  text-align: center;
+}
+.input {
+  position: relative; 
+  width: 600px;
+  height: 70px;
+  border: none;
+  border-radius: 50px;
+  background: #fff;
+  padding: 0 15px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.side-input {
+  position: absolute;  
+  border: 1px solid red;
+  right: 0;
+  height: 70px;
+  width: 210px;
+  font-size: 20px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-field{
+    border: 0;
+    width: 300px;
+    padding: 5px 20px;
 }
