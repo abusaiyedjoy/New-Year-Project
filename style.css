@@ -146,6 +146,12 @@ header {
   background: #f00;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
+  transition: 1s;
+}
+.btn:hover{
+  transform: scale(1.2);
+  z-index: 2;
 }
 
 /* Start Date, Time & Place Section */
@@ -184,8 +190,14 @@ header {
   margin-top: 20px;
   padding: 15px 30px;
   background: #f00;
+  cursor: pointer;
   border: none;
   border-radius: 8px;
+  transition: 1s;
+}
+.button:hover{
+  transform: scale(1.2);
+  z-index: 2;
 }
 
 /* New Year Offer Section */
@@ -338,6 +350,13 @@ header {
   width: 424px;
   height: 450px;
   border-radius: 16px;
+  cursor: pointer;
+  transition: .5s;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+}
+.imgs:hover{
+  transform: scale(1.1);
+  z-index: 1;
 }
 
 /* Start Subscribe Section */
@@ -387,13 +406,20 @@ font-weight: 900;
   height: 70px;
   width: 210px;
   font-size: 20px;
+  cursor: pointer;
   border-radius: 0px 50px 50px 0px;
   background: #f00;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: .5s;
 }
+.side-input:hover{
+  transform: scale(1.1);
+  z-index: 1;
+}
+
 .input-field {
   border: 0;
   width: 300px;
@@ -457,6 +483,12 @@ footer {
 .icons {
   width: 64px;
   height: 64px;
+  cursor: pointer;
+  transition: .5s;
+}
+.icons:hover{
+  transform: scale(1.1);
+  z-index: 1;
 }
 .bottom-text {
   display: flex;
